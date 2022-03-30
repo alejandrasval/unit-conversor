@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/unit-conversor/static/css/main.ab39cc27.css",
+    "main.js": "/unit-conversor/static/js/main.2235c408.js",
+    "index.html": "/unit-conversor/index.html",
+    "main.ab39cc27.css.map": "/unit-conversor/static/css/main.ab39cc27.css.map",
+    "main.2235c408.js.map": "/unit-conversor/static/js/main.2235c408.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab39cc27.css",
+    "static/js/main.2235c408.js"
+  ]
+}
