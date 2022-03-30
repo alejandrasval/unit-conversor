@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    275deg,
+    hsl(217deg 84% 55%) 0%,
+    hsl(208deg 100% 47%) 4%,
+    hsl(206deg 100% 47%) 9%,
+    hsl(204deg 100% 48%) 16%,
+    hsl(203deg 100% 48%) 25%,
+    hsl(200deg 100% 47%) 37%,
+    hsl(198deg 100% 47%) 53%,
+    hsl(196deg 100% 46%) 70%,
+    hsl(194deg 100% 46%) 83%,
+    hsl(192deg 100% 45%) 91%,
+    hsl(189deg 100% 44%) 97%,
+    hsl(189deg 73% 53%) 100%
+  );
+}
+
+h1 {
+  color: white;
+}
+
+input {
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+input:focus, input:active {
+    outline: none;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #1F2937;
+    color: white;
+}
+
+.results * {
+    margin: 8px;
+}
